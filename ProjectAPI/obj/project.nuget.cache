@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xk8PcXds6Wg=",
+  "success": true,
+  "projectFilePath": "C:\\ProjectApi\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.5\\microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.abstractions.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.0-preview.4.24267.1\\microsoft.entityframeworkcore.inmemory.9.0.0-preview.4.24267.1.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-preview.4.24266.19\\microsoft.extensions.caching.memory.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.4.24266.19\\microsoft.extensions.dependencyinjection.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0-preview.4.24266.19\\microsoft.extensions.logging.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-preview.4.24266.19\\microsoft.extensions.logging.abstractions.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-preview.4.24266.19\\microsoft.extensions.options.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.4.24266.19\\microsoft.extensions.primitives.9.0.0-preview.4.24266.19.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\oscar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "ProjectAPI depends on Microsoft.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) but Microsoft.EntityFrameworkCore 9.0.0-preview.3.24172.9 was not found. Microsoft.EntityFrameworkCore 9.0.0-preview.4.24267.1 was resolved instead.",
+      "projectPath": "C:\\ProjectApi\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\ProjectApi\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "ProjectAPI depends on Microsoft.EntityFrameworkCore.InMemory (>= 9.0.0-preview.3.24172.9) but Microsoft.EntityFrameworkCore.InMemory 9.0.0-preview.3.24172.9 was not found. Microsoft.EntityFrameworkCore.InMemory 9.0.0-preview.4.24267.1 was resolved instead.",
+      "projectPath": "C:\\ProjectApi\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\ProjectApi\\ProjectAPI\\ProjectAPI\\ProjectAPI.csproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}
