@@ -26,10 +26,11 @@ C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.build.json
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.development.json
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ProjectAPI.csproj.Up2Date
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ProjectAPI.dll
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\refint\ProjectAPI.dll
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ProjectAPI.pdb
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ProjectAPI.genruntimeconfig.cache
 C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ref\ProjectAPI.dll
+C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\ProjectAPI.sourcelink.json
+C:\ProjectApi\ProjectAPI\ProjectAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

@@ -7,15 +7,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ProjectContext>(opt =>
     opt.UseInMemoryDatabase("ProjectList"));
 
-// ✅ Lägg till CORS-policy
+// ✅ Lägg till CORS-policy för GitHub Pages
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
-    options.AddDefaultPolicy(policy =>
-    {
-        policy.WithOrigins("http://localhost:3000") // React-projektets ursprung
-              .AllowAnyHeader()
-              .AllowAnyMethod();
-    });
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("https://oscarkoz.github.io")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
 });
 
 builder.Services.AddControllers();
@@ -37,8 +39,8 @@ app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-// ✅ Aktivera CORS innan controllers
-app.UseCors();
+// ✅ Aktivera CORS med din policy innan controllers
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 

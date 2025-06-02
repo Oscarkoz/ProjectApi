@@ -3,13 +3,13 @@
 Detta är ett .NET 9 Web API som tillhandahåller projektdata till min utvecklarportfölj. API:t används av frontend-appen (React + Tailwind) för att visa tidigare projekt.
 
 ## 🌐 Deployment
-- API live: https://<ditt-api-namn>.azurewebsites.net/api/projects
+- API live: [https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects](https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects)
 
 ## 🔌 Endpoints
 
-| Metod | Route                | Beskrivning           |
-|-------|----------------------|------------------------|
-| GET   | `/api/projects`      | Hämtar alla projekt    |
+| Metod | Route           | Beskrivning           |
+|-------|------------------|------------------------|
+| GET   | `/api/projects` | Hämtar alla projekt    |
 
 ## 🔧 Teknik
 
@@ -17,6 +17,7 @@ Detta är ett .NET 9 Web API som tillhandahåller projektdata till min utvecklar
 - Entity Framework Core (InMemory)
 - Swagger (för test och dokumentation)
 - SeedData för testprojekt
+- CORS för GitHub Pages-stöd
 
 ## 📦 Används av:
 Frontend: [https://oscarkoz.github.io/portfolio-web/](https://oscarkoz.github.io/portfolio-web/)
