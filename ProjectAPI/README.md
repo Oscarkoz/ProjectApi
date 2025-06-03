@@ -1,6 +1,6 @@
 ﻿# ProjectAPI – .NET 9 Web API
 
-Detta är ett .NET 9 Web API som tillhandahåller projektdata till min utvecklarportfölj. API:t används av frontend-appen (React + Tailwind) för att visa tidigare projekt.
+Detta är ett .NET 9 Web API.
 
 ## 🌐 Deployment
 - API live: [https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects](https://projectapi-oscar-bdejdmfshugaftay.westeurope-01.azurewebsites.net/api/projects)
